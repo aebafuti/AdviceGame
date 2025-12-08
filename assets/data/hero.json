@@ -1,0 +1,10 @@
+[
+    {
+        "name":"リラ",
+        "hpMax": 80,
+        "mpMax":100,
+        "initiative": 4,
+        "skills": [1,2,3]
+    }
+
+]

@@ -1,0 +1,149 @@
+[
+    {
+      "id": 1,
+      "iconId":10,
+      "name": "微光ポーション",
+      "description": "[消費]HPを30回復する",
+      "value": 50,
+      "category": "consumable", 
+      "effect": {
+        "type": "heal",
+        "target": "hp",
+        "amount": 30
+      }
+    },
+    {
+      "id": 2,
+      "iconId":11,
+      "name": "深緋ポーション",
+      "description": "[消費]HPを80回復する",
+      "value": 120,
+      "category": "consumable", 
+      "effect": {
+        "type": "heal",
+        "target": "hp",
+        "amount": 80
+      }
+    },
+    {
+      "id": 3,
+      "iconId":12,
+      "name": "魔力エーテル",
+      "description": "[消費]MPを40回復する",
+      "value": 200,
+      "category": "consumable", 
+      "effect": {
+        "type": "heal",
+        "target": "mp",
+        "amount": 40
+      }
+    },
+    {
+      "id": 4,
+      "iconId":13,
+      "name": "死灰の鱗粉",
+      "description": "[消費]MPを10回復するが、苦い",
+      "value": 150,
+      "category": "consumable", 
+      "effect": {
+        "type": "heal",
+        "target": "mp",
+        "amount": 10
+      }
+    },
+    {
+      "id": 11,
+      "iconId":23,
+      "name": "影抜けの札",
+      "description": "[消費]1回だけ敵をすり抜ける",
+      "value": 250,
+      "category": "consumable", 
+      "effect": {
+        "type": "transparent"
+      }
+    },
+    {
+      "id": 12,
+      "iconId":24,
+      "name": "転移珠",
+      "description": "[消費]どこかへ飛ぶ",
+      "value": 200,
+      "category": "consumable", 
+      "effect": {
+        "type": "teleport",
+        "destination": "random"
+      }
+    },
+    {
+      "id": 101,
+      "iconId":35,
+      "name": "ひらりパンツ",
+      "description": "[装備]攻撃回避率上昇",
+      "value": 300,
+      "category": "equipment",
+      "effect":{
+        "type": "equip",
+        "avoid":0.3
+      }
+    },
+    {
+      "id": 102,
+      "iconId":37,
+      "name": "眼鏡",
+      "description": "[装備]クリティカル率上昇",
+      "value": 300,
+      "category": "equipment",
+      "effect":{
+        "type": "equip",
+        "critRate":0.5
+      }
+    },
+    {
+      "id": 201,
+      "iconId":60,
+      "name": "鋭い爪",
+      "description": "[財宝]血肉の痕跡あり",
+      "value": 80,
+      "category": "treasure"
+    },
+    {
+      "id": 202,
+      "iconId":61,
+      "name": "もふもふしっぽ",
+      "description": "[財宝]触れると幸せの予感",
+      "value": 200,
+      "category": "treasure"
+    },
+    {
+      "id": 203,
+      "iconId":40,
+      "name": "血錆びた古貨",
+      "description": "[財宝]古墓に眠った血の証",
+      "value": 200,
+      "category": "treasure"
+    },
+    {
+      "id": 204,
+      "iconId":62,
+      "name": "夢幻の歯車",
+      "description": "[財宝]異界時間を刻む歯車",
+      "value": 500,
+      "category": "treasure"
+    },
+    {
+      "id": 205,
+      "iconId":47,
+      "name": "狂乱の女神像",
+      "description": "[財宝]見つめ返すことはない",
+      "value": 800,
+      "category": "treasure"
+    },
+    {
+      "id": 206,
+      "iconId":41,
+      "name": "魔導書断片",
+      "description": "[財宝]封じられた一節の呪い",
+      "value": 700,
+      "category": "treasure"
+    }
+]

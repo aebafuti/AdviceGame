@@ -1,0 +1,68 @@
+[
+  {
+    "id":1,
+    "iconId":1,
+    "se":"fire",
+    "name": "ファイアボール",
+    "description": "[攻撃]前方5タイルに火の球を放つ",
+    "mpCost": 15,
+    "category": "attack",
+    "power": 30,
+    "range":5
+  },
+  {
+    "id":2,
+    "iconId":2,
+    "se":"heal",
+    "name": "ヒール",
+    "description": "[回復]HPを50回復する",
+    "mpCost": 20,
+    "category": "heal",
+    "power": 50,
+    "range":1
+  },
+  {
+    "id":3,
+    "iconId":3,
+    "se":"search",
+    "name": "シャドウサーチ",
+    "description": "[索敵]一定範囲内の影を取り払う",
+    "mpCost": 10,
+    "category": "detect",
+    "power": 0,
+    "range":5
+  },
+  {
+    "id":101,
+    "iconId":1,
+    "se":"attack",
+    "name": "弱攻撃",
+    "description": "",
+    "mpCost": 0,
+    "category": "attack",
+    "power": 15,
+    "range":1
+  },
+  {
+    "id":102,
+    "iconId":1,
+    "se":"attack",
+    "name": "強攻撃",
+    "description": "",
+    "mpCost": 0,
+    "category": "attack",
+    "power": 30,
+    "range":1
+  },
+  {
+    "id":103,
+    "iconId":1,
+    "se":"attack",
+    "name": "遠距離攻撃",
+    "description": "",
+    "mpCost": 0,
+    "category": "attack",
+    "power": 20,
+    "range":4
+  }
+]

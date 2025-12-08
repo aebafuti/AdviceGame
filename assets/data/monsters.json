@@ -1,0 +1,60 @@
+[
+    {
+        "id":1,
+        "name": "モスストーカー",
+        "rank": "雑魚",
+        "appearance": "人の顔くらいの大きさのボロボロの蛾が、天井にへばりついて粉をまき散らしてる",
+        "hpMax": 20,
+        "initiative": 6,
+        "skills": [101],
+        "activeType":"discovery",
+        "moveType":"chase",
+        "drops": [
+            {"itemId": 4,"dropRate": 0.3}
+        ]
+    },
+    {
+        "id":2,
+        "name": "モールドッグ",
+        "rank": "雑魚",
+        "appearance": "毛が抜け落ち、灰色のカビに覆われた犬の死骸が走り回っている",
+        "hpMax": 40,
+        "initiative": 5,
+        "skills": [101],
+        "activeType":"discovery",
+        "moveType":"chase",
+        "drops": [
+            {"itemId": 201,"dropRate": 0.5},
+            {"itemId": 202,"dropRate": 0.1}
+        ]
+    },
+    {
+        "id":3,
+        "name": "カノンゴーレム",
+        "rank": "雑魚",
+        "appearance": "砲台を抱えた人型に積み上げられた石の塊。関節部分だけ青い光が差し込んでいて、そこを支点に動いている",
+        "hpMax": 50,
+        "initiative": 4,
+        "skills": [103],
+        "activeType":"reaction",
+        "moveType":"fixed",
+        "drops": [
+            {"itemId": 204,"dropRate": 0.5},
+            {"itemId": 2,"dropRate": 0.5}
+        ]
+    },
+    {
+        "id":4,
+        "name": "腐死の魔女ドルミラ",
+        "rank": "ボス",
+        "appearance": "朽ちた井戸の縁に腰かけた老婆。髪は泥と苔で絡まり、目は白濁している",
+        "hpMax": 120,
+        "initiative": 3,
+        "skills": [102],
+        "activeType":"reaction",
+        "moveType":"fixed",
+        "drops": [
+            {"itemId": 205,"dropRate": 1.0}
+        ]
+    }
+]
