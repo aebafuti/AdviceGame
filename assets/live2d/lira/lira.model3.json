@@ -1,0 +1,78 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "lira.moc3",
+		"Textures": [
+			"lira.2048/texture_00.png"
+		],
+		"Physics": "lira.physics3.json",
+		"DisplayInfo": "lira.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "confusion",
+				"File": "expressions/confusion.exp3.json"
+			},
+			{
+				"Name": "cry",
+				"File": "expressions/cry.exp3.json"
+			},
+			{
+				"Name": "damage",
+				"File": "expressions/damage.exp3.json"
+			},
+			{
+				"Name": "normal",
+				"File": "expressions/normal.exp3.json"
+			},
+			{
+				"Name": "smile",
+				"File": "expressions/smile.exp3.json"
+			},
+			{
+				"Name": "smirk",
+				"File": "expressions/smirk.exp3.json"
+			},
+			{
+				"Name": "surprise",
+				"File": "expressions/surprise.exp3.json"
+			}
+		],
+		"Motions": {
+			"Idle": [
+				{
+					"File": "motions/idle.motion3.json"
+				}
+			],
+			"Damage": [
+				{
+					"File": "motions/damage.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Surprise": [
+				{
+					"File": "motions/Surprise.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	],
+	"HitAreas": []
+}
