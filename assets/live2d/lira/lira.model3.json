@@ -40,19 +40,28 @@
 		"Motions": {
 			"Idle": [
 				{
-					"File": "motions/idle.motion3.json"
-				}
-			],
-			"Damage": [
-				{
-					"File": "motions/damage.motion3.json",
+					"File": "motions/Idle.motion3.json",
 					"FadeInTime": 0,
 					"FadeOutTime": 0
 				}
 			],
-			"Surprise": [
+			"Damage": [
 				{
-					"File": "motions/Surprise.motion3.json",
+					"File": "motions/Damage.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Jump": [
+				{
+					"File": "motions/Jump.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Walk": [
+				{
+					"File": "motions/Walk.motion3.json",
 					"FadeInTime": 0,
 					"FadeOutTime": 0
 				}
@@ -60,6 +69,13 @@
 		}
 	},
 	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "Idle",
+			"Ids": [
+				"ParamBreath"
+			]
+		},
 		{
 			"Target": "Parameter",
 			"Name": "EyeBlink",
